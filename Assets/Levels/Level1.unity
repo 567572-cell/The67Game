@@ -231,7 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 65371941}
   - component: {fileID: 65371942}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: WallLeft (1)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -311,7 +311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 118315977}
   - component: {fileID: 118315976}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: WallLeft
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -389,7 +389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200117711}
   - component: {fileID: 200117710}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Start (Idle)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1415417203
+  m_SortingLayerID: 577800805
   m_SortingLayer: 2
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 3016a57ecc98e9e46b7a110ddd486ee9, type: 3}
@@ -527,6 +527,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
+      objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
       value: Fireball (5)
@@ -597,6 +605,14 @@ PrefabInstance:
     - target: {fileID: 40136748761418316, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
       objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
@@ -751,7 +767,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000858580a0738d5d5429c47d366b3ec924
+  m_ApplyToSortingLayers: 00000000858580a0738d5d5429c47d366b3ec924658a70220da9304d71fc4e9d4b4b113c
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -845,6 +861,14 @@ PrefabInstance:
     - target: {fileID: 40136748761418316, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
       objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
@@ -1014,7 +1038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 785372304}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1047,7 +1071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 881744740}
   - component: {fileID: 881744741}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: WallEdgeRight (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1113,7 +1137,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1415417203
+  m_SortingLayerID: 577800805
   m_SortingLayer: 2
   m_SortingOrder: -10
   m_Sprite: {fileID: -953669130, guid: 413986c4a668c374d8de72a47621b531, type: 3}
@@ -1184,6 +1208,14 @@ PrefabInstance:
     - target: {fileID: 40136748761418316, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
       objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
@@ -1256,6 +1288,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
+      objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
       value: Fireball (7)
@@ -1317,6 +1357,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
+      objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
       value: Fireball (3)
@@ -1340,7 +1388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1053855020}
   - component: {fileID: 1053855021}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Celling1 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1406,7 +1454,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1415417203
+  m_SortingLayerID: 577800805
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 996164377, guid: 413986c4a668c374d8de72a47621b531, type: 3}
@@ -1441,7 +1489,7 @@ GameObject:
   - component: {fileID: 1154277617}
   - component: {fileID: 1154277618}
   - component: {fileID: 1154277619}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Ground1 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1507,7 +1555,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 617168491
+  m_SortingLayerID: 1007766347
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -1698394029, guid: 413986c4a668c374d8de72a47621b531, type: 3}
@@ -1587,7 +1635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1184029170}
   - component: {fileID: 1184029169}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: WallEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1638,8 +1686,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 577800805
+  m_SortingLayer: 2
   m_SortingOrder: -10
   m_Sprite: {fileID: -953669130, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1677,7 +1725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1218322308}
   - component: {fileID: 1218322309}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: WallLeft (3)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1873,8 +1921,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 577800805
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -3049067163339015078, guid: c016f0eb0a188a14ab7f86d910097523, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2221,7 +2269,7 @@ GameObject:
   - component: {fileID: 1420386038}
   - component: {fileID: 1420386040}
   - component: {fileID: 1420386039}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2333,8 +2381,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 577800805
+  m_SortingLayer: 2
   m_SortingOrder: -10
   m_Sprite: {fileID: 996164377, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2395,6 +2443,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
+      objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
       value: Fireball (1)
@@ -2418,7 +2474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1567196476}
   - component: {fileID: 1567196477}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Celling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2498,7 +2554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1600001911}
   - component: {fileID: 1600001912}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: WallLeft (2)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2575,7 +2631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1602740027}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Room1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2719,7 +2775,7 @@ Transform:
   m_GameObject: {fileID: 1613598469}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.055824, y: 10.128, z: -0.029547691}
+  m_LocalPosition: {x: 35.99, y: 10.128, z: -0.04}
   m_LocalScale: {x: 6, y: 6, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2769,9 +2825,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1602189947
+  m_SortingLayerID: 1295034637
   m_SortingLayer: 1
-  m_SortingOrder: -10
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2538710101d0f1f4e8976b3495cd1f75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2929,7 +2985,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1415417203
+  m_SortingLayerID: 577800805
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ca5ce7f3f3ac3bb499d37119b1867d7e, type: 3}
@@ -2990,6 +3046,14 @@ PrefabInstance:
     - target: {fileID: 40136748761418316, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
       objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
@@ -3184,7 +3248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1803475034}
   - component: {fileID: 1803475035}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Celling1 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3250,7 +3314,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1415417203
+  m_SortingLayerID: 577800805
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 996164377, guid: 413986c4a668c374d8de72a47621b531, type: 3}
@@ -3274,7 +3338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1804347321}
   - component: {fileID: 1804347320}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: WallEdgeRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3325,7 +3389,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1415417203
+  m_SortingLayerID: 577800805
   m_SortingLayer: 2
   m_SortingOrder: -10
   m_Sprite: {fileID: -953669130, guid: 413986c4a668c374d8de72a47621b531, type: 3}
@@ -3363,7 +3427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1934742875}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3530,7 +3594,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 914211881
+  m_SortingLayerID: -1655767951
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 20daa800a641d9e4cae18a06630db1ef, type: 3}
@@ -3796,6 +3860,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
+      objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name
       value: Fireball (2)
@@ -3852,7 +3924,7 @@ GameObject:
   - component: {fileID: 2129651589}
   - component: {fileID: 2129651590}
   - component: {fileID: 2129651591}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3918,7 +3990,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1415417203
+  m_SortingLayerID: 577800805
   m_SortingLayer: 2
   m_SortingOrder: -10
   m_Sprite: {fileID: 996164377, guid: 413986c4a668c374d8de72a47621b531, type: 3}
@@ -4104,6 +4176,14 @@ PrefabInstance:
     - target: {fileID: 40136748761418316, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729102235800460192, guid: dde5d6386df3584438f9863f604110b5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 577800805
       objectReference: {fileID: 0}
     - target: {fileID: 8332393183275227786, guid: dde5d6386df3584438f9863f604110b5, type: 3}
       propertyPath: m_Name

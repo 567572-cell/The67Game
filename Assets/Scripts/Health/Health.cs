@@ -12,7 +12,21 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         currentHealth = startingHealth;
-        anim.GetComponent<Animator>();
+       
+    }
+
+    private void Start()
+    {
+       if (anim != null)
+        {
+            anim.GetComponent<Animator>();
+        } 
+        else
+        {
+            anim = this.GetComponent<Animator>();
+
+        }
+     
     }
     public void TakeDamage(float _damage)
     {
