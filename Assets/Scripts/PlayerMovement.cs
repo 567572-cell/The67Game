@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
                 else if (onWall() && !isGrounded())
                     WallJump();
             }
-            Debug.Log("Grounded: " + isGrounded());
+           // Debug.Log("Grounded: " + isGrounded());
 
         }
 
