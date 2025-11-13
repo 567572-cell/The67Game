@@ -1,10 +1,8 @@
-using System.Runtime.CompilerServices;
 using UnityEngine;
-using UnityEngine.InputSystem.Processors;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private float startingHealth;
+    [SerializeField] public float startingHealth = 3f; // 3 hearts
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
@@ -12,45 +10,34 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         currentHealth = startingHealth;
-       
     }
 
     private void Start()
     {
-       if (anim != null)
-        {
-            anim.GetComponent<Animator>();
-        } 
-        else
-        {
-            anim = this.GetComponent<Animator>();
-
-        }
-     
+        anim = GetComponent<Animator>();
     }
-    public void TakeDamage(float _damage)
-    {
-        currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
-        if (currentHealth >0)
+    public void TakeDamage(float damage)
+    {
+        if (dead) return; // no more damage if dead
+
+        currentHealth = Mathf.Clamp(currentHealth - damage, 0, startingHealth);
+
+        if (currentHealth > 0)
         {
             anim.SetTrigger("hurt");
-            //iframes
         }
         else
         {
-            if(!dead)
-            {
-                anim.SetTrigger("die");
-                GetComponent<PlayerMovement>().enabled = false;
-                dead = true;
-            }
-            
+            anim.SetTrigger("die");
+            GetComponent<PlayerMovement>().enabled = false;
+            dead = true;
         }
-
     }
+    public void AddHealth(float _value)
+    {
+        if (dead) return; // can't heal if dead
 
-    
+        currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
+    }
 }
-
-
