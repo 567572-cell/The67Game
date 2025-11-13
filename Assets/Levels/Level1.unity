@@ -1489,7 +1489,7 @@ GameObject:
   - component: {fileID: 1154277617}
   - component: {fileID: 1154277618}
   - component: {fileID: 1154277619}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground1 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1943,12 +1943,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247125466}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -21.9294, y: 10.49561, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1764560939}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1305892100
@@ -2867,11 +2866,11 @@ Transform:
   m_GameObject: {fileID: 1764560938}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.56, y: -1.51, z: 0}
+  m_LocalPosition: {x: -18.3694, y: 9.15561, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1247125470}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1764560940
 Animator:
@@ -4213,4 +4212,5 @@ SceneRoots:
   - {fileID: 1397158657}
   - {fileID: 1305892100}
   - {fileID: 498622477}
+  - {fileID: 1764560939}
   - {fileID: 1247125470}
