@@ -29,7 +29,8 @@ public class MeeleeEnemy : MonoBehaviour
 
     private bool playerInsight()
     {
-        RaycastHit2D hit = Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range, boxCollider.bounds.size, 0, Vector2.left, 0, playerLayer);
+        RaycastHit2D hit =
+            Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x, boxCollider.bounds.size, 0, Vector2.left, 0, playerLayer);
 
 
 
@@ -39,7 +40,7 @@ public class MeeleeEnemy : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube( boxCollider.bounds.center + transform.right * range, boxCollider.bounds.size);
+        Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * range * transform.localScale.x, boxCollider.bounds.size);
     }
     
 
